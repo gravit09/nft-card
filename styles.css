@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  --slight-dark-blue: hsl(217, 54%, 11%);
+  --very-dark-blue: hsl(216, 50%, 16%);
+  --text-dark-blue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--slight-dark-blue);
+  max-width: 350px;
+  margin: auto;
+  grid-template-columns: 1fr;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  margin-top: 90px;
+  padding: 20px 25px;
+  background-color: var(--very-dark-blue);
+  border-radius: 8px;
+}
+
+.main-img {
+  width: 300px;
+  border-radius: 8px;
+  background: none;
+}
+
+h1 {
+  color: white;
+}
+
+h1:hover {
+  color: cyan;
+}
+
+p {
+  color: var(--text-dark-blue);
+  font-weight: 400;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.favicon-text {
+  float: right;
+  margin-left: 8px;
+  margin-top: -1px;
+}
+
+hr {
+  height: 0.5px;
+  border: 0;
+  background-color: var(--text-dark-blue);
+}
+
+.avatar {
+  margin-top: 5px;
+  height: 30px;
+  width: 30px;
+  border: 3px solid white;
+  border-radius: 100%;
+}
+
+.bottom {
+  margin-top: 14px;
+  display: flex;
+}
+
+span {
+  color: var(--White);
+}
+
+span:hover {
+  color: cyan;
+}
+
+.ending-text {
+  margin-left: 10px;
+}
+
+.favicon-text-eth {
+  float: right;
+  margin-left: 8px;
+  margin-top: -1px;
+  color: cyan;
+}
