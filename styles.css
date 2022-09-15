@@ -91,6 +91,8 @@ span:hover {
 }
 @media screen and (max-width: 480px) {
   body {
+    max-width:400px;
+    margin:auto;
     flex-wrap: wrap;
     margin: 32px;
   }
