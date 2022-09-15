@@ -9,8 +9,8 @@
 
 body {
   background-color: var(--slight-dark-blue);
-  max-width: 350px;
-  margin: auto;
+  max-width: 352px;
+  margin:auto;
   grid-template-columns: 1fr;
   font-family: "Outfit", sans-serif;
 }
