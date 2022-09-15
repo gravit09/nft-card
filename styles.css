@@ -89,7 +89,7 @@ span:hover {
   margin-top: -1px;
   color: cyan;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   body {
     flex-wrap: wrap;
     margin: 32px;
