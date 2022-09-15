@@ -89,8 +89,3 @@ span:hover {
   margin-top: -1px;
   color: cyan;
 }
-@media screen and (max-width: 480px) {
-  body {
-    margin:2px;
-  }
-}
