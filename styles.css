@@ -93,6 +93,6 @@ span:hover {
   body {
     max-width:480px;
     flex-wrap: wrap;
-    margin:32px;
+    margin:12px;
   }
 }
